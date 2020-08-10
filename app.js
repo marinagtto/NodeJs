@@ -1,11 +1,11 @@
 // Imprimindo no console
-console.log('Ola Mundo')
+console.log('Olá Mundo')
 
 // Imprimindo nome e sobrenome no console
 var nome = "Marina"
 var sobrenome = "Costa"
 
-console.log(nome + " " + sobrenome)
+console.log("Nome completo: "+ nome + " " + sobrenome)
 
 // Criando função para retornar soma de dois números
 var num1 = 10
@@ -15,4 +15,4 @@ function somar(a, b) {
     return a + b
 }
 
-console.log(somar(num1, num2))
+console.log(num1 + " + " + num2 + " = " + somar(num1, num2))
