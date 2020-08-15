@@ -27,8 +27,7 @@ app.get("/ola/:nome/:cargo", function(req, res){ // /Insira "localhost:8081/ola/
 
 // Criar nova rota
 app.get("/html", function(req, res){
-    res.sendFile(__dirname + "/Arquivos_HTML/index.html") // envia mensagem ao usuário
-});
+    res.sendFile(__dirname + "/Arquivos_HTML/index.html") // adiciona arquivo HTML na rota
 
 // Abre servidor porta 8081 + função de callback /Deve ser colocada por último
 app.listen(8081, function(){

@@ -1,0 +1,16 @@
+Acesso ao mysql no cmd após instalação e add path (C:\Program Files\MySQL\MySQL Server 8.0\bin) nas variáveis do ambiente:
+-h localhost -u root -p
+
+Alguns comandos:
+
+- Mostra os banco de dados: SHOW DATABASES;
+- Cria novo banco de dados: CREATE DATABASE nomeDatabase;
+- Entrar em um banco de dados específico: USE nomeDatabase;
+- Mostrar tabelas de uma banco: SHOW TABLES;
+- Criar uma tabela: 
+CREATE TABLE nomeTabela( 
+    nome VARCHAR(50),
+    email VARCHAR(100),
+    idade INT
+);
+- Visualizar conteúdo em tabela: DESCRIBE nomeTabela;
