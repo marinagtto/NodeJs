@@ -1,5 +1,5 @@
 Acesso ao mysql no cmd após instalação e add path (C:\Program Files\MySQL\MySQL Server 8.0\bin) nas variáveis do ambiente:
--h localhost -u root -p
+mysql -h localhost -u root -p
 
 Alguns comandos:
 
@@ -14,3 +14,8 @@ CREATE TABLE nomeTabela(
     idade INT
 );
 - Visualizar conteúdo em tabela: DESCRIBE nomeTabela;
+- Inserir dados no banco de dados: INSERT INTO nomeTabela(nome, email, idade) VALUES("Marina Costa", "email@email.com", 30);
+- Listar dados da tabela: SELECT * FROM nomeTabela;
+- Lista dados mais específicos: SELECT * FROM nomeTabela WHERE idade = 8;
+- Deletar um registro no banco de dados: DELETE FROM nomeTabela WHERE nome = "Marina";
+- Atualizar dados: UPDATE nomeTabela SET nome = "Marina Machado" WHERE nome = "Marina Silva";
