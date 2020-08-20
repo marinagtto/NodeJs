@@ -1,0 +1,11 @@
+Instalar o node (baixar LTS) e pacotes npm: https://nodejs.org/en/
+Repositório de pacotes extras: https://www.npmjs.com
+
+Comandos cmd:
+Verificar versão nodejs: node -v
+Verificar versão npm: npm -v
+Instalar express: npm install --save express
+Instalar sequelize: npm install --save sequelize
+Instalar mysql12: npm install --save mysql2
+
+# save para salvar arquivos
